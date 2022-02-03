@@ -1,0 +1,4 @@
+lckr-jupyterlab-variableinspector
+pandas
+seaborn
+tetgen

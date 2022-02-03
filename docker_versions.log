@@ -1,0 +1,11 @@
+-------------------------------
+v. 20220203
+
+Docker container from ghcr.io/pyvista/pyvista:latest
+
+Python packages added:
+
+- lckr-jupyterlab-variableinspector
+- pandas
+- seaborn
+- tetgen
