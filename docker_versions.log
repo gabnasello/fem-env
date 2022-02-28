@@ -1,4 +1,13 @@
 -------------------------------
+v. 20220217
+
+Docker container from ghcr.io/pyvista/pyvista:latest
+
+Python packages added:
+
+- pyacvd
+
+-------------------------------
 v. 20220203
 
 Docker container from ghcr.io/pyvista/pyvista:latest
