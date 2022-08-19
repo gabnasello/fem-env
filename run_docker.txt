@@ -1,10 +1,17 @@
-sudo docker build --no-cache -t gnasello/fem-env:latest .
-sudo docker build -t gnasello/fem-env:latest .
+docker build --no-cache -t gnasello/fem-env:latest .
+docker build -t gnasello/fem-env:latest .
 
-sudo docker images
-sudo docker rmi imageID -f
+docker images
+docker rmi imageID -f
 
-sudo docker run -it --rm -p 7777:7777 \
+docker run -it --rm -p 7777:7777 \
+                --volume $HOME:/home/host_home \
+                --workdir /home/host_home \
+                --entrypoint /usr/bin/bash \
+                --user root \
+                gnasello/fem-env:latest
+
+docker run -it --rm \
                 --volume $HOME:/home/host_home \
                 --workdir /home/host_home \
                 --entrypoint /usr/bin/bash \
