@@ -6,6 +6,7 @@ Update the "jl" command to specify port
 Python packages added:
 
 - papermill
+- pymeshfix
 
 -------------------------------
 v. 20220217
