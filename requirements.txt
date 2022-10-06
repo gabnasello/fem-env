@@ -4,3 +4,4 @@ seaborn
 tetgen
 pyacvd
 papermill
+pymeshfix
